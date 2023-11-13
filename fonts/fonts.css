@@ -3,7 +3,7 @@
     src: url(./ebgaramondregular.woff2) format('woff2'),
     url(./ebgaramondregular.woff) format('woff'),
     url(./ebgaramondregular.ttf) format('truetype');
-    font-weight: 400;    
+    font-weight: 400;
     font-display: swap;
 } 
 
