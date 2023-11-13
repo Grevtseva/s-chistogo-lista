@@ -4,8 +4,8 @@
 
 
 body {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     width: 320px;
 }
 
@@ -145,7 +145,7 @@ span.content-section__list-accent {
 
 
 .content-section__subtitle {
-    font-family:'EB Garamond Medium', serif; 
+    font-family:'EB Garamond Medium', serif;
     font-size: 28px;
     margin-bottom: 32px;
 }
@@ -159,7 +159,7 @@ span.content-section__list-accent {
 
 .card__title {
     margin-bottom: 8px;
-    font-family:'EB Garamond Medium', serif; 
+    font-family:'EB Garamond Medium', serif;
     font-size: 22px;
 }
 
