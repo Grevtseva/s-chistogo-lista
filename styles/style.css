@@ -4,8 +4,9 @@
 
 
 body {
-    margin: auto; 
-    width: 320px;   
+    margin: auto;
+    padding: auto;
+    width: 320px;
 }
 
 
@@ -16,25 +17,25 @@ span {
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     margin:0;
-    padding:0;   
+    padding:0;
 }
 
 .title {
     font-family:'EB Garamond';
     font-size: 72px;
-    color:#FFFFFF; 
+    color:#FFFFFF;
 }
 
 
 .content-section {
-    width: 320px; 
+    width: 320px;
     margin: auto;
     padding: 40px 20px;
 }
 
 .content-section__cover {
     padding: 40px 0px 0px 20px;
-    width: 340px; 
+    width: 340px;
 }
 
 .content-section__theme--dark {
@@ -51,15 +52,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 header {
     padding: 24px 20px;
     background-color:#000000;
-    margin: auto; 
-    width: 320px;  
+    margin: auto;
+    width: 320px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .header__logo {
-    width: 78px; 
-
+    width: 78px;
 }
 
 .header__menu {
@@ -75,7 +75,7 @@ header {
   }
 
 
-.cover{
+.cover {
     padding: 7px 24px 0px 0px;
     background-image: url(../images/cover.svg);
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ span.content-section__list-accent {
 
 
 .card__text {
-    font-family:'Inter', sans-serif; 
+    font-family:'Inter', sans-serif;
     font-size: 16px;
 }
 
@@ -200,7 +200,7 @@ span.content-section__list-accent {
 
 
 footer {
-    width: 320px; 
+    width: 320px;
     background-color: #000000;
     display: flex;
     justify-content: space-between;
@@ -209,7 +209,7 @@ footer {
 }
 
 .footer__copy {
-    color: #CCCCCC; 
+    color: #CCCCCC;
 }
 
 .footer__links {
