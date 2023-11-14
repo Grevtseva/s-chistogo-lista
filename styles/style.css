@@ -63,10 +63,10 @@ header {
 
 .header__menu {
     display: flex;
-    font-family:'EB Garamond',serif;
+    font-family:'Inter';
+    font-size: 16;
     color:#FFFFFF;
     text-decoration: underline;
-    
   }
 
   .header__menu-without-line {
@@ -100,14 +100,15 @@ header {
 
 .intro__title {
     font-family:'Inter';
+    font-size: 16px;
     display: inline-block;
     color:#CCCCCC;
-    font-size: 16px;
     vertical-align: top;
 }
 
 .intro__date {
     font-family:'Inter';
+    font-size: 16px;
     display: inline-block;
     color:#CCCCCC;
 }
@@ -121,6 +122,8 @@ header {
 }
 
 .content-section__list {
+    font-family:'Inter';
+    font-size: 16px;
     margin-bottom: 16px;
     margin-left: 20px;
     justify-content: left;
@@ -128,29 +131,20 @@ header {
 }
 
 span.content-section__list-accent {
-    font-family:'Inter Bold', sans-serif;
+    font-family:'Inter Bold';
     font-size: 16px;
     display:inline;
     white-space: nowrap;
 }
 
-.content-section__list-item {
-    font-family:'Inter', sans-serif;
-    font-size: 16px;
-    display:inline;
-    margin-bottom: 16px;
-    
-}
-
-
 .content-section__subtitle {
-    font-family:'EB Garamond Medium', serif;
+    font-family:'EB Garamond Medium';
     font-size: 28px;
     margin-bottom: 32px;
 }
 
 .content-section__introduction {
-    font-family:'Inter', sans-serif;
+    font-family:'Inter';
     font-size: 20px;
     margin-bottom: 32px;
 }
@@ -158,13 +152,13 @@ span.content-section__list-accent {
 
 .card__title {
     margin-bottom: 8px;
-    font-family:'EB Garamond Medium', serif;
+    font-family:'EB Garamond Medium';
     font-size: 22px;
 }
 
 
 .card__text {
-    font-family:'Inter', sans-serif;
+    font-family:'Inter';
     font-size: 16px;
 }
 
@@ -209,11 +203,15 @@ footer {
 
 .footer__copy {
     color: #CCCCCC;
+    font-family:'Inter';
+    font-size: 16px;
 }
 
 .footer__links {
     color: #CCCCCC;
     align-items: end;
     margin-left: 16px;
+    font-family:'Inter';
+    font-size: 14px;
 
 }
