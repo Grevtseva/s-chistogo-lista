@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-family:'EB Garamond';
     font-size: 72px;
     color:#FFFFFF;
+    line-height: 100%;
 }
 
 
@@ -33,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__cover {
-    padding: 40px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
     width: 340px;
 }
 
@@ -62,11 +63,17 @@ header {
 }
 
 .header__menu {
-    display: flex;
     font-family:'Inter';
     font-size: 16;
     color:#FFFFFF;
+    justify-content: space-between;
+}
+
+.header__menu-items {
+    padding: 0px 0px 12px 0px;
+    display: flex;
     text-decoration: underline;
+    justify-content: space-between;
   }
 
   .header__menu-without-line {
@@ -75,10 +82,10 @@ header {
 
 
 .cover {
-    padding: 7px 24px 0px 0px;
+    padding: 0px 24px 0px 0px;
     background-image: url(../images/cover.svg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: contain;
 }
 
