@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     width: 320px;
+    
 }
 
 
@@ -22,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .title {
     font-family:'EB Garamond';
+    font-weight: 400;
     font-size: 72px;
     color:#FFFFFF;
     line-height: 100%;
@@ -30,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .content-section {
     width: 320px;
-    padding: 40px 20px;
+    padding: 40px 20px 38px 20px;
 }
 
 .content-section__cover {
@@ -64,22 +66,25 @@ header {
 
 .header__menu {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
-    color:#FFFFFF;
     justify-content: space-between;
 }
 
 .header__menu-items {
     padding: 0px 0px 12px 0px;
     display: flex;
-    text-decoration: underline;
     justify-content: space-between;
-  }
+}
 
-  .header__menu-without-line {
+.header__menu-items_active {
     text-decoration: none;
+    color:#F5F5F5;
   }
 
+.header__menu-items_inactive {
+    color:#F5F5F5;
+}
 
 .cover {
     padding: 0px 24px 0px 0px;
@@ -100,73 +105,84 @@ header {
 }
 
 .intro__heading {
-    margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
+    margin-top: -10px;
 }
 
 .intro__title {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
-    display: inline-block;
+    justify-content: space-between;
     color:#CCCCCC;
     vertical-align: top;
 }
 
 .intro__date {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
-    display: inline-block;
+    justify-content: space-between;
     color:#CCCCCC;
+    white-space: nowrap;
 }
 
 .intro__main-text {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
-    margin-bottom: 24px;
+    margin-top: 24px;
     letter-spacing: normal;
-    line-height: normal
+    line-height: 21.6px;
 }
 
 .content-section__list {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
-    margin-bottom: 16px;
-    margin-left: 20px;
+    margin-top: 16px;
+    margin-left: 18px;
     justify-content: left;
-    gap: 10px;
+    line-height: 21.6px;
 }
 
 span.content-section__list-accent {
-    font-family:'Inter Bold';
+    font-family:'Inter';
+    font-weight: 700;
     font-size: 16px;
     display:inline;
-    white-space: nowrap;
 }
 
 .content-section__subtitle {
-    font-family:'EB Garamond Medium';
+    font-family:'EB Garamond';
+    font-weight: 500;
     font-size: 28px;
     margin-bottom: 32px;
+    line-height: 115%;
 }
 
 .content-section__introduction {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 20px;
     margin-bottom: 32px;
+    line-height: 27px;
 }
-
 
 .card__title {
     margin-bottom: 8px;
-    font-family:'EB Garamond Medium';
+    font-family:'EB Garamond';
+    font-weight: 500;
     font-size: 22px;
 }
 
 
 .card__text {
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
+    line-height: 21.6px;
 }
 
 .card__theme--dark {
@@ -175,7 +191,8 @@ span.content-section__list-accent {
     max-width: 300px;
     margin: 0 auto;
     color: #F5F5F5;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin-top: 16px;
     margin-bottom: 32px;
 }
 
@@ -185,40 +202,52 @@ span.content-section__list-accent {
     max-width: 300px;
     margin: 0 auto;
     color: #131313;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin-top: 16px;
     margin-bottom: 32px;
 }
 
 .card__author-photo {
     width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .card__author-name {
     margin-bottom: 8px;
+    margin-top: 5px;
+    font-family:'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
 
 }
 
-
-footer {
+.footer {
     width: 320px;
     background-color: #000000;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border-top: 1px solid #FEE42A;
+    margin-top: -10px;
 }
 
 .footer__copy {
-    color: #CCCCCC;
+    color: #F5F5F5;
     font-family:'Inter';
+    font-weight: 400;
     font-size: 16px;
 }
 
-.footer__links {
-    color: #CCCCCC;
-    align-items: end;
+.footer__links--margin {
     margin-left: 16px;
+}
+
+.footer__links {
+    color: #F5F5F5;
+    align-items: end;
     font-family:'Inter';
     font-size: 14px;
-
+    text-decoration: none;
 }
