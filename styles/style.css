@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .title {
-    font-family:'EB Garamond';
+    font-family:'EB Garamond', sans-serif;
     font-weight: 400;
     font-size: 72px;
     color:#FFFFFF;
@@ -65,7 +65,7 @@ header {
 }
 
 .header__menu {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
     justify-content: space-between;
@@ -111,7 +111,7 @@ header {
 }
 
 .intro__title {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
     justify-content: space-between;
@@ -120,7 +120,7 @@ header {
 }
 
 .intro__date {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
     justify-content: space-between;
@@ -129,7 +129,7 @@ header {
 }
 
 .intro__main-text {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
     margin-top: 24px;
@@ -138,7 +138,7 @@ header {
 }
 
 .content-section__list {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
     margin-top: 16px;
@@ -148,14 +148,14 @@ header {
 }
 
 span.content-section__list-accent {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 700;
     font-size: 16px;
     display:inline;
 }
 
 .content-section__subtitle {
-    font-family:'EB Garamond';
+    font-family:'EB Garamond', sans-serif;
     font-weight: 500;
     font-size: 28px;
     margin-bottom: 32px;
@@ -163,7 +163,7 @@ span.content-section__list-accent {
 }
 
 .content-section__introduction {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 32px;
@@ -172,14 +172,14 @@ span.content-section__list-accent {
 
 .card__title {
     margin-bottom: 8px;
-    font-family:'EB Garamond';
+    font-family:'EB Garamond', sans-serif;
     font-weight: 500;
     font-size: 22px;
 }
 
 
 .card__text {
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 21.6px;
@@ -216,7 +216,7 @@ span.content-section__list-accent {
 .card__author-name {
     margin-bottom: 8px;
     margin-top: 5px;
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 135%;
@@ -235,7 +235,7 @@ span.content-section__list-accent {
 
 .footer__copy {
     color: #F5F5F5;
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-weight: 400;
     font-size: 16px;
 }
@@ -247,7 +247,7 @@ span.content-section__list-accent {
 .footer__links {
     color: #F5F5F5;
     align-items: end;
-    font-family:'Inter';
+    font-family:'Inter', 'Arial', serif;
     font-size: 14px;
     text-decoration: none;
 }
