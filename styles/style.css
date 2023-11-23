@@ -4,8 +4,7 @@
 
 
 body {
-    margin-left:auto;
-    margin-right:auto;
+    margin: auto;
     padding: 0;
     width: 320px;
     background-color: #131313;
