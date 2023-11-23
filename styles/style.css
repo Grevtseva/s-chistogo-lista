@@ -4,9 +4,11 @@
 
 
 body {
-    margin: 0;
+    margin-left:auto;
+    margin-right:auto;
     padding: 0;
     width: 320px;
+    background-color: #131313;
     
 }
 
@@ -26,7 +28,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: 400;
     font-size: 72px;
     color:#FFFFFF;
-    line-height: 100%;
+    line-height: 95%;
+    font-style: normal;
 }
 
 
@@ -102,12 +105,14 @@ header {
 .text-right {
     text-align: right;
     display: block;
+    padding: 0px;
 }
 
 .intro__heading {
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
+
+
 }
 
 .intro__title {
@@ -189,21 +194,21 @@ span.content-section__list-accent {
     background-color: #343434;
     padding: 20px;
     max-width: 300px;
-    margin: 0 auto;
+    margin: auto;
     color: #F5F5F5;
     border-radius: 30px;
     margin-top: 16px;
-    margin-bottom: 32px;
+
 }
 
 .card__theme--bright {
     background-color: #FEE42A;
     padding: 20px;
     max-width: 300px;
-    margin: 0 auto;
+    margin: auto;
     color: #131313;
     border-radius: 30px;
-    margin-top: 16px;
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 
@@ -217,7 +222,7 @@ span.content-section__list-accent {
     margin-bottom: 8px;
     margin-top: 5px;
     font-family:'Inter', 'Arial', serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 135%;
 
@@ -230,7 +235,7 @@ span.content-section__list-accent {
     justify-content: space-between;
     padding: 20px;
     border-top: 1px solid #FEE42A;
-    margin-top: -10px;
+    margin-top: 21px;
 }
 
 .footer__copy {
@@ -241,10 +246,14 @@ span.content-section__list-accent {
 }
 
 .footer__links--margin {
-    margin-left: 16px;
+    margin-left: 20px;
 }
 
 .footer__links {
+    display: flex;
+}
+
+.links_items {
     color: #F5F5F5;
     align-items: end;
     font-family:'Inter', 'Arial', serif;
