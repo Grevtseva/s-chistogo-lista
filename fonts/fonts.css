@@ -5,6 +5,7 @@
     url(./ebgaramondregular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 } 
 
 @font-face {
@@ -13,6 +14,7 @@
     url(./ebgaramondmedium.woff) format('woff'),
     url(./ebgaramondmedium.ttf) format('truetype');
     font-weight: 500;
+    font-display: swap;
 } 
 
 @font-face {
@@ -22,6 +24,7 @@
     url(./interregular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 } 
 
 @font-face {
@@ -30,4 +33,5 @@
     url(./interbold.woff) format('woff'),
     url(./interbold.ttf) format('truetype');
     font-weight: 700;
+    font-display: swap;
 } 
